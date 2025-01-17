@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.first-header{
+    display: flex;
+    justify-content: space-between;
+    /* box-shadow: 0px 0px 0.5px 0.5px grey; */
+}
+.first-nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 30px;
+}
+.first-nav a{
+    color: black;
+    text-decoration: none;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 0px 0px 0.5px 0.5px grey;
+
+}
+.sec-nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    list-style: none;
+}
+.sec-nav  a{
+   color: black;
+   text-decoration: none;
+}
+button{
+    height: 20px;
+    border: none;
+}
+input{
+    width: 200px;
+    height: 20px;
+    border: none;
+    box-shadow: 0px 1px 1px 1px gray;
+    border-radius: 10px;
+}
+.content{
+   /* border: 1px solid black; */
+   width: 700px;
+   height: 400px;
+}
+main{
+    width: 100%;
+   
+}
+.container{
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    justify-content: center;
+
+}
+span{
+    font-weight: 700;
+ font-size: 30px;
+}
+.product1{
+    /* border: 1px solid; */
+    width: 350px;
+    box-shadow: 0px 1px 1px 1px grey;
+    height: 450px;
+    text-align: center;
+}
+.product-container{
+    /* border: 1px solid black; */
+    padding: 20px;
+}
+.product1 span{
+    text-align: center;
+}
+span{
+    text-align: center;
+}
+.product1 img{
+    width: 200px;
+}
