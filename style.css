@@ -46,7 +46,7 @@ input{
     box-shadow: 0px 1px 1px 1px gray;
     border-radius: 10px;
 }
-.content{
+.content-1{
    /* border: 1px solid black; */
    width: 700px;
    height: 400px;
@@ -85,4 +85,17 @@ span{
 }
 .product1 img{
     width: 200px;
+}.product-container{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 30px;
+}
+.content{
+    padding: 10px;
+    width: 300px; 
+    box-shadow: 0px 2px 2px 2px grey;
+    height: 300px;
+}
+.content span {
+    font-size: 15px;
 }
