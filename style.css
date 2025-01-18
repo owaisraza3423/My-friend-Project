@@ -23,7 +23,8 @@
     justify-content: space-between;
     background-image: linear-gradient(to bottom right, #9fa2a4);
     padding: 20px;
-    box-shadow: 0px 0px 0.5px 0.5px grey;
+    box-shadow: 0px 1px 1px 1px grey;
+
 
 }
 .sec-nav{
@@ -49,8 +50,10 @@ input{
 }
 .content-1{
    /* border: 1px solid black; */
-   width: 700px;
-   height: 400px;
+   width: 500px;
+   padding: 20px;
+   align-items: center;
+   height: 300px;
 }
 main{
     width: 100%;
@@ -58,6 +61,7 @@ main{
 }
 .container{
     display: flex;
+    justify-content: space-between;
     gap: 20px;
     padding: 30px;
     justify-content: center;
@@ -96,9 +100,49 @@ span{
     padding: 10px;
     width: 250px; 
     box-shadow: 0px 2px 2px 2px grey;
-    height: 250px;
+    height: 280px;
+    /* background: black; */
+    /* position: relative; */
+    /* border: 1px solid black; */
+    border-radius: 10px;
    
 }
+/* @property --angle{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+.content::after, .content::before{
+    --angle:0deg;
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+ background-image: conic-gradient(red,blue,pink,yellow (from var(--angle),transparent 70%, blue));
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    animation: 3s spin linear infinite;
+    z-index: -1;
+    padding: 3px;
+    border-radius: 10px;
+
+}
+@keyframes spin {
+    from{
+      --angle:0deg;
+
+    }
+    to{
+    --angle:360deg;
+    }
+    
+}
+.content::before{
+    filter: blur(1.5rem);
+    opacity: 0.5;
+
+} */
 .content:hover{
   animation: product ease-in-out 4s ;
        cursor: pointer;
@@ -124,6 +168,7 @@ span{
 img{
     width: 150px;
     height: 150px;
+    padding: 20px;
 }
 h2{
     animation: heading ease-in-out  ;
@@ -159,4 +204,20 @@ animation: round ease-in-out 4s infinite;
     100%{
         transform: rotateX('0deg');
     }
+    
+}
+.second  a:hover{
+    background-color: #bbb5b0;
+    padding: 5px;
+    color: white;
+  border-radius: 10px;
+    box-shadow: 0px 1px 1px 2px black;
+}
+.main-heading{
+    text-transform: uppercase;
+    font-style: oblique;
+}
+i {
+    color: blue;
+    text-shadow: 0px 1px 1px 1px grey;
 }
